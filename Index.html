@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daylish - Stevia Sweetener</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-white text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-black text-white p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Daylisz</h1>
+      <nav>
+        <a href="#produk" class="mx-2 hover:underline">Produk</a>
+        <a href="#kontak" class="mx-2 hover:underline">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-white py-10 text-center">
+    <div class="container mx-auto">
+      <img src="./logo.jpg" alt="Daylish Stevia Sweetener" class="mx-auto w-40 mb-4">
+      <h2 class="text-3xl font-bold mb-2">Gula Cair Sehat & Alami</h2>
+      <p class="mb-4">Manis tanpa kalori, cocok untuk semua usia dan penderita diabetes.</p>
+      <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20Daylish%20Stevia%20Sweetener" target="_blank">
+        <button class="bg-black text-white px-6 py-2 rounded hover:bg-gray-800 transition">
+          Beli Sekarang via WhatsApp
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Produk Section -->
+  <section id="produk" class="py-10 container mx-auto">
+    <h3 class="text-2xl font-bold text-center mb-6">Paket Produk</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="border rounded-lg p-4 text-center shadow">
+        <img src="./botol1.jpg" alt="1 Botol" class="w-32 mx-auto mb-2">
+        <p class="font-semibold">1 Botol - 250 ml</p>
+        <p class="text-black font-bold mb-2">Rp30.000</p>
+        <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%201%20botol%20Daylish" target="_blank">
+          <button class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Pesan Sekarang</button>
+        </a>
+      </div>
+      <div class="border rounded-lg p-4 text-center shadow">
+        <img src="./botol2.jpg" alt="2 Botol" class="w-40 mx-auto mb-2">
+        <p class="font-semibold">2 Botol - 2 x 250 ml</p>
+        <p class="text-black font-bold mb-2">Rp55.000</p>
+        <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%202%20botol%20Daylish" target="_blank">
+          <button class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Pesan Sekarang</button>
+        </a>
+      </div>
+      <div class="border rounded-lg p-4 text-center shadow">
+        <img src="./botol3.jpg" alt="4 Botol" class="w-48 mx-auto mb-2">
+        <p class="font-semibold">4 Botol - 4 x 250 ml</p>
+        <p class="text-black font-bold mb-2">Rp100.000</p>
+        <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%204%20botol%20Daylish" target="_blank">
+          <button class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Pesan Sekarang</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak Section -->
+  <section id="kontak" class="bg-gray-100 py-10">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Hubungi Kami</h3>
+      <p class="mb-2">WhatsApp: <a href="https://wa.me/6281234567890" class="text-black font-semibold hover:underline">Pesan via WhatsApp</a></p>
+      <p>Email: <a href="mailto:info@daylish.id" class="text-black font-semibold hover:underline">info@daylish.id</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-4">
+  </footer>
+
+</body>
+</html>
+<script>
+  // Tailwind CSS configuration
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: '#000',
+          secondary: '#fff',
+        },
+      },
+    },
+  };
